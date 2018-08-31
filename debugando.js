@@ -1,7 +1,11 @@
-function multiplicacao(a,b) {
-	 var resultado =a-b;
-	 return a-b;
+function ps4(game) {
+  var i;
+  for (i = 0;i < game.length;i++){
+       console.log(game[i]);
+  }
 }
 
-var resultado = multiplicacao ("azul", "vermelho" );
-alert(resultado)
+var jogos = ["god of war","homem aranha","uncharted","the last of us","gta"];
+
+ps4(jogos)
+console.log("quantidade de jogos : "+jogos.length);  
